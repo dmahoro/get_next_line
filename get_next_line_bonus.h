@@ -1,23 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dmahoro- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/07 20:16:52 by dmahoro-          #+#    #+#             */
-/*   Updated: 2021/04/12 22:18:59 by dmahoro-         ###   ########.fr       */
+/*   Created: 2021/06/04 18:32:02 by dmahoro-          #+#    #+#             */
+/*   Updated: 2021/06/04 18:33:35 by dmahoro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <stdlib.h>
 # include <unistd.h>
 
 # ifndef N_FD
-# define N_FD 65535
+#  define N_FD 65535
 # endif
 
 size_t	ft_strlen(char const *str);
